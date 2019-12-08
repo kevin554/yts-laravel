@@ -1,0 +1,168 @@
+.header-slogan {
+    font-family: Arimo,Arial,Helvetica,lucida grande,sans-serif;
+    letter-spacing: -.03em;
+    font-size: 16px;
+}
+
+.quick-search {
+    background: #1d1d1d; /* url("../svg/search.svg") no-repeat 9px 8px; */
+    width: 250px !important;
+    height: 35px;
+    color: #919191;
+    border: 2px solid #333;
+    border-radius: 20px !important;
+}
+
+#grad {
+    background: linear-gradient(45deg, #665fee 0%, #27c2de 100%);
+    position: relative;
+}
+
+#grad:after {
+    content: "";
+    position: absolute;
+    bottom: -100px;
+    left: -50px;
+    height: 200px;
+    width: 130%;
+    background-color: #f2f4f9;
+    -webkit-transform: rotate(-4deg);
+    -ms-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+    z-index: 10;
+}
+
+.movie {
+    width: 250px;
+}
+
+.movie img:hover {
+    border: 5px solid #6ac045;
+}
+
+.movie img {
+    border: 5px solid #fff;
+}
+
+.browse-movie-bottom {
+    max-width: 220px;
+}
+
+.browse-movie-bottom p {
+    font-size: .95em;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+    text-decoration: none;
+}
+
+.browse-movie-bottom div {
+    font-size: .85em;
+    color: #919191;
+}
+
+.img-responsive {
+    /* display: block; max-width: 100%; height: auto; */
+}
+
+#movie-poster {
+    float: left;
+    width: 262px !important;
+    max-width: 263px;
+}
+
+#movie-poster > img {
+    height: 390px;
+    width: 262px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: 5px solid #fff;
+}
+
+#movie-info {
+    width: 40%;
+    max-width: 40%;
+    float: left;
+    margin-left: 5%;
+ }
+
+#movie-info h1 {
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+
+#movie-info h2 {
+    font-size: 1.25em;
+    font-weight: 700;
+}
+
+#movie-related {
+    width: 30%;
+    max-width: 30%;
+    float: left;
+}
+
+#movie-related img {
+    float: left;
+    width: 92px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#movie-sub-info {
+    margin-top: 55px;
+}
+
+#movie-sub-info h3 {
+    font-size: 1.25em;
+    font-weight: 700;
+}
+
+#movie-sub-info p {
+    color: #919191;
+    margin: 24px;
+}
+
+.movie-sub-info #synopsis {
+    float: left;
+    width: 60%;
+}
+
+#crew {
+    float: left;
+    width: 35%;
+    margin-left: 5%;
+}
+
+#movie-specs {
+    margin-top: 55px;
+    width: 1030px;
+}
+
+#movie-specs a {
+    background: #171717;
+    color: white;
+    margin: 0;
+    position: relative;
+    top: -1px;
+}
+
+#movie-specs h3 {
+    display: inline-block;
+}
+
+#movie-specs span {
+    color: #fff;
+    font-weight: 700;
+    background: #171717;
+}
+
+.quality-spec {
+    text-align: center;
+    display: inline-block;
+    padding: 10px 30px;
+    outline: 0;
+    zoom: 1;
+    border-bottom: 0;
+    border-radius: 4px 4px 0 0;
+}
